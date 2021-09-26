@@ -1,0 +1,662 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Montserrat;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Oswald;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
+/*global css code starts here*/
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.col-4{
+  width: 33.33%;
+  float: left;
+}
+.col-6{
+  width: 50%;
+  float: left;
+}
+.col-12{
+  width: 100%;
+  float: left;
+}
+/*header section code starts here*/
+.header-section{
+  width: 100%;
+  height: 700px;
+  float: left;
+  background-image: url(../images/header2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.head{
+  width: 65%;
+}
+.training{
+  text-align: left;
+}
+.name {
+  font-size: 30px;
+  color: #ffff;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+  text-transform: capitalize;
+}
+.name a{
+  color: #ffff;
+}
+.name span{
+  color: #FF413C;
+}
+.bar{
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+.menu{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.menu li{
+  display: inline-block;
+  list-style-type: none;
+}
+.menu li a{
+  font-size: 16px;
+  margin: 0px 15px;
+  text-transform: capitalize;
+  color: #ffff;
+  transition: 1s;
+}
+.menu li a:hover{
+  font-size: 25px;
+}
+.menu .sign a:hover{
+  font-size: 20px;
+}
+.menu li .red{
+  color: #FF413C;
+}
+.menu .sign{
+  background: #FF413C;
+  border: 1px solid #FF413C;
+  padding: 10px 0px;
+}
+.transparent{
+  background: rgba(232,236,241,.2);
+  height: 80px;
+}
+.head-text{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.head-text p{
+  color: #ffff;
+  padding-top: 300px;
+  text-transform: uppercase;
+}
+.head-text h1{
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffff;
+}
+.head-text span{
+  color: #E05C36;
+}
+.head-text button{
+  padding: 20px 30px;
+  font-size: 16px;
+  color: #ffff;
+  background: #E05C36;
+  border: 2px solid #E05C36;
+  text-transform: capitalize;
+  transition: 1.5s;
+}
+.head-text button:hover{
+  font-size: 20px;
+  background: #544FE1;
+  border: 2px solid #544FE1;
+  cursor: pointer;
+}
+/*header section code ends here*/
+
+/*program section code starts here*/
+
+/*program head text section code starts here*/
+.program-head{
+  width: 100%;
+  float: left;
+}
+.program-text{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.program-text h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #black;
+  padding-top: 70px;
+  text-transform: uppercase;
+}
+.program-text span{
+  color: #E05C36;
+}
+.program-text .fa-gg-circle{
+  font-size: 50px;
+  padding-top: 20px;
+  color: #E05C36;
+}
+.program-text p{
+  padding-top: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 50px;
+}
+/*program head text section code ends here*/
+/*program section list code starts here*/
+.program-list{
+  width: 100%;
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.fitness-first{
+  width: 100%;
+  float: left;
+  padding-left: 60px;
+}
+.fitness-first li{
+  margin: 30px 0px;
+  list-style-image: url(../images/dumbbells.png);
+}
+.fitness-first li h1{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.fitness-first li .lorem-list{
+  margin-bottom: 10px;
+}
+.fitness-first li a{
+  text-transform: capitalize;
+  color: #EC543C;
+}
+/*program section list code starts here*/
+/*program section code ends here*/
+
+/*banner section code starts here*/
+.banner-section{
+  width: 100%;
+  float: left;
+}
+.banner{
+  margin-top: 80px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 75px;
+}
+.banner-text{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-text h1{
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 100px;
+  color: #ffff;
+  margin-bottom: 20px;
+}
+.banner-text span{
+  color: #ED533B;
+}
+.banner-text p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffff;
+  margin-bottom: 30px;
+}
+.banner-text .banner-btn{
+  padding: 20px 30px;
+  font-size: 15px;
+  background: #ED533B;
+  color: #ffff;
+  border: 2px solid #ED533B;
+  text-transform: capitalize;
+  margin-top: 20px;
+  transition: 1.5s;
+}
+.banner-text .banner-btn:hover{
+  font-size: 22px;
+  background: #615CDD;
+  border: 2px solid #615CDD;;
+  cursor: pointer;
+}
+/*banner section code ends here*/
+
+/*class section code starts here*/
+
+/*class text code starts here*/
+.class-text{
+  width: 100%;
+  float: left;
+}
+.our-class{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.our-class h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+
+}
+.our-class span{
+  color: #ED533B;
+}
+.our-class .fa-gg-circle{
+  font-size: 50px;
+  padding-top: 20px;
+  color: #ED533B;
+}
+.our-class p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/*class text code ends here*/
+
+/*class thumb section code starts here*/
+.left-thumb{
+  width: 100%;
+  float: left;
+  margin-bottom: 80px;
+}
+.training-class{
+  width: 100%;
+  float: left;
+}
+.training-class .lineup{
+  padding-left: 100px;
+}
+.lineup li{
+  list-style-type: none;
+  margin: 25px 0px;
+}
+
+.lineup li button{
+  padding: 20px 60px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: capitalize;
+  background: #ffff;
+  border: 2px solid #eeee;
+  font-weight: 700;
+  box-shadow: 10px 10px 10px #eeee;
+}
+.lineup li .bt-second{
+  padding: 20px 50px;
+}
+.lineup li .bt-third{
+  padding: 20px 59px;
+}
+.lineup li .bt-fourth{
+  padding: 20px 55px;
+}
+.lineup li .view-schedules{
+  padding: 20px 78px;
+  background: #ED533B;
+  transition: 1.5s;
+}
+.lineup li .view-schedules:hover{
+  font-size: 20px;
+  cursor: pointer;
+}
+.lineup li .fa-bandcamp{
+  font-size: 20px;
+  margin-right: 8px;
+  color: #ED533B;
+}
+.right-class{
+  width: 100%;
+  text-align: left;
+}
+.right-class img{
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.training-text h1{
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.training-text p{
+  margin-top: 10px;
+  text-align: justify;
+}
+.training-text button{
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: #ED533B;
+  border: 2px solid #ED533B;
+  transition: 1.5s;
+}
+.training-text button:hover{
+  font-size: 20px;
+  cursor: pointer;
+}
+/*class thumb section code starts here*/
+
+/*table section code starts here*/
+.table-section{
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+.tab{
+  width: 1140px;
+  height: 1000px;
+  margin-bottom: 50px;
+  background-image: url("../images/table.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.table-text{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.table-text h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffff;
+  margin-top: 70px;
+}
+.table-text span{
+  color: #ED533B;
+}
+.table-text .fa-gg-circle{
+  font-size: 50px;
+  padding-top: 20px;
+  color: #ED533B;
+}
+.table-text p{
+  margin: 20px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffff;
+}
+.table-text .days{
+  margin-top: 80px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.main-table{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+table, td, th{
+  border: 2px solid #ffff;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  height: 400px;
+  margin-top: 30px;
+  color: #ffff;
+  text-transform: capitalize;
+}
+/*table section code ends here*/
+
+/*trainers text code starts here*/
+.trainers-text{
+  width: 100%;
+  float: left;
+}
+.expert{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.expert h1{
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 20px;
+}
+.expert span{
+  color: #EA553D;
+}
+.expert .fa-gg-circle{
+  font-size: 50px;
+  margin-top: 20px;
+  color: #EA553D;
+}
+.expert p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+/*trainers text code ends here*/
+
+/*trainers thumb section code starts here*/
+.trainers-thumb{
+  width: 100%;
+  float: left;
+  margin-bottom: 80px;
+}
+.inner-content{
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid #eeee;
+  box-shadow: 8px 8px 8px 0px #eeee;
+}
+.inner-content img{
+  width: 85%;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+.inner-content .paul{
+  height: 205px;
+  object-fit: cover;
+}
+.inner-content h3{
+  text-transform: capitalize;
+  color: #EA553D;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.inner-content h1{
+  text-transform: capitalize;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.inner-content p{
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.inner-content .t-icon{
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.inner-content .t-icon li{
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.inner-content .t-icon li a{
+  font-size: 20px;
+  margin-right: 15px;
+  color: black;
+}
+/*trainers thumb section code ends here*/
+
+/*footer section code starts here*/
+
+.footer-section .lst{
+  background-image: url("../images/last.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-bottom: 80px;
+  width: 100%;
+  float: left;
+}
+.last-form{
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 70px;
+  text-align: center;
+  background: #ffff;
+  border: 2px solid #eeee;
+}
+iframe{
+height: 600px;
+}
+.m-form{
+}
+.m-form .mail{
+  margin-left: 20px;
+}
+.m-form .m-control{
+  padding: 10px 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.m-form .sub{
+  display: block;
+  margin-left: 40px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.m-form textarea{
+  display: block;
+  margin-left: 40px;
+  padding-right: 59px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.send-m{
+  margin-right: 255px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  background: #ED5633;
+  color: #ffff;
+  border: 2px solid #ED5633;
+  margin-bottom: 30px;
+}
+.foot-text{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+.foot-text span{
+  color: #ED5633;
+}
+/*footer section code ends here*/
+
+/*about page code starts here*/
+.about{
+  width: 100%;
+  float: left;
+}
+.about .ab{
+  margin: 50px 0px;
+
+}
+
+/*about page code ends here*/
+
+/*main-form code starts here*/
+.form-section{
+  width: 100%;
+  float: left;
+}
+.ft{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.ft h1{
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.ft span{
+  color: #FF413C;
+}
+.ft h3{
+  margin-top: 15px;
+  margin-bottom: 100px;
+
+}
+.mf{
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+  padding-left: 200px;
+}
+
+.main-form .form-control{
+  display: block;
+  width: 80%;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 2px solid #FF413C;
+  margin: 15px 0px;
+}
+.main-form label{
+  font-size: 14px;
+  font-weight: 700;
+}
+.submit{
+  margin-top: 30px;
+  padding: 12px 22px;
+  background: #FF413C;
+  text-transform: capitalize;
+  border: 2px solid #FF413C;
+  margin-bottom: 80px;
+}
+/*main-form code ends here*/
